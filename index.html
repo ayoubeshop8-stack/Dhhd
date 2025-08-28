@@ -50,12 +50,17 @@
     }
     .right {
       display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .contact {
+      display: flex;
       align-items: center;
       font-size: 18px;
       font-weight: bold;
-      color: #111; /* الرقم غادي يبان بالأسود */
+      color: #111;
     }
-    .right img {
+    .contact img {
       width: 26px;
       height: 26px;
       margin-left: 8px;
@@ -64,9 +69,10 @@
 </head>
 <body>
   <div class="header">STORE AYOUBE SHOP</div>
+
   <div class="card">
     <div class="left">
-      <!-- 👇 هنا اللوغو ديالك -->
+      <!-- 👇 اللوغو -->
       <img src="https://i.postimg.cc/nzzYJ49P/IMG-0985.jpg" alt="logo">
       <div>
         <div class="store-name">STORE</div>
@@ -74,8 +80,14 @@
       </div>
     </div>
     <div class="right">
-      +212 710-290356
-      <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="phone">
+      <div class="contact">
+        <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="phone">
+        +212 710-290356
+      </div>
+      <div class="contact">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="whatsapp">
+        +212 710-290356
+      </div>
     </div>
   </div>
 </body>
