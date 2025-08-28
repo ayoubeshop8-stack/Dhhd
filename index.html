@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no"> <!-- مهم باش مايبانوش الأرقام زرق -->
   <title>STORE AYOUBE SHOP</title>
   <style>
     body {
@@ -31,6 +32,7 @@
     .store-name {
       font-size: 24px;
       font-weight: bold;
+      color: #111;
     }
     .store-sub {
       font-size: 16px;
@@ -46,13 +48,14 @@
       align-items: center;
       font-size: 18px;
       font-weight: bold;
-      color: #111;
+      color: #111; /* يخلي الرقم أسود */
     }
     .contact img {
       width: 24px;
       height: 24px;
       margin-left: 8px;
     }
+    /* icons bottom */
     .bottom-icons {
       display: flex;
       justify-content: flex-end;
@@ -71,6 +74,7 @@
   </style>
 </head>
 <body>
+  <!-- الجزء العلوي -->
   <div class="container">
     <div class="left">
       <!-- 👇 اللوغو -->
@@ -92,13 +96,13 @@
     </div>
   </div>
 
-  <!-- أيقونات لتحت -->
+  <!-- الأيقونات لتحت -->
   <div class="bottom-icons">
     <div class="icon">
-      <img src="https://cdn-icons-png.flaticon.com/512/833/833314.png" alt="cart">
+      <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" alt="heart">
     </div>
     <div class="icon">
-      <img src="https://cdn-icons-png.flaticon.com/512/1077/1077035.png" alt="heart">
+      <img src="https://cdn-icons-png.flaticon.com/512/833/833314.png" alt="cart">
     </div>
   </div>
 </body>
