@@ -19,23 +19,23 @@
       font-weight: bold;
       font-size: 18px;
     }
-    .store {
+    .card {
       display: flex;
-      align-items: center;
       justify-content: space-between;
+      align-items: center;
       background: #fff;
+      margin: 20px;
       padding: 20px;
-      margin: 15px;
-      border-radius: 10px;
+      border-radius: 12px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    .store-left {
+    .left {
       display: flex;
       align-items: center;
     }
-    .store-left img {
-      width: 60px;
-      height: 60px;
+    .left img {
+      width: 70px;
+      height: 70px;
       border-radius: 50%;
       margin-left: 15px;
     }
@@ -44,19 +44,19 @@
       font-weight: bold;
     }
     .store-sub {
-      font-size: 14px;
+      font-size: 15px;
       color: #666;
     }
-    .contact {
-      text-align: right;
+    .right {
+      display: flex;
+      align-items: center;
       font-size: 18px;
       font-weight: bold;
     }
-    .contact img {
-      width: 24px;
-      height: 24px;
+    .right img {
+      width: 26px;
+      height: 26px;
       margin-left: 8px;
-      vertical-align: middle;
     }
   </style>
 </head>
@@ -64,19 +64,18 @@
 
   <div class="header">STORE AYOUB SHOP</div>
 
-  <div class="store">
-    <!-- ✅ غير بدّل هذا الرابط بالرابط المباشر ديال اللوغو ديالك -->
-    <div class="store-left">
+  <div class="card">
+    <div class="left">
+      <!-- 👇 هنا حط الرابط المباشر ديال اللوغو -->
       <img src="https://i.postimg.cc/XXXX/logo.png" alt="logo">
       <div>
         <div class="store-name">STORE</div>
         <div class="store-sub">AYOUB SHOP</div>
       </div>
     </div>
-
-    <div class="contact">
-      <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="phone">
+    <div class="right">
       +212 710-29035
+      <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="phone">
     </div>
   </div>
 
